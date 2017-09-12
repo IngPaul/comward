@@ -24,12 +24,9 @@ router.get('/insert/:estado', function(req, res) {
 
 app.use(router);
 
-mongoose.createConnection('mongodb://localhost/elec', function(err, res) {
-  if(err) {
-  console.log('ERROR: connecting to Database. ' + err);
-  }
-  app.listen(3000, function() {
-    console.log("Node server running on http://localhost:3000");
-  });
+
+app.listen(3000, function() {
+   console.log("Node server running on http://localhost:3000");
 });
+
 
