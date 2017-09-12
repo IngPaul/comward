@@ -10,3 +10,10 @@ Codigo desarrollado para testear el paso de datos entre un dispositivo electroni
    ```
      npm start
    ```
+4. Hacer un tunel
+  * Bajarse el programa [ngrok](https://ngrok.com/)
+  * Por el terminal ubicarse en el path donde se localiza el ngrok
+  * Ejecutar la linea
+    ```
+      ngrok http 3000
+    ```
